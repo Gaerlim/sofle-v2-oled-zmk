@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '''', TAB, Q, W, E, R, T, Y, U, I, O, P, '~', TAB, A, S, D, F, G, H, J, K, L, ;, raise, LSHFT,
-    Z, X, C, V, B, MUTE, SCREENSAVER, N, M, ',', ., /, lower, LGUI, LALT, SPACE, lower, LCTRL, ENTER, raise, BACKSPACE, DEL, PRINTSCREEN]
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '''', TAB, Q, W, E, R, T, Y, U, I, O, P, '`', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '-', adjust,
+    Z, X, C, V, B, MUTE, LOCK, N, M, ',', ., /, '=', LGUI, LALT, LCTRL, SPACE, PRINTSCREEN, ENTER, BACKSPACE, DEL, lower, raise]
   lower:
-  - '&studio_unlock'
+  - '~'
   - F1
   - F2
   - F3
@@ -52,16 +52,16 @@ layers:
   - ;
   - ':'
   - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
   - BT CLR
@@ -99,7 +99,7 @@ layers:
   - DOWN
   - RIGHT
   - DEL
-  - {t: BSPC, type: held}
+  - BSPC
   - {t: ▽, type: trans}
   - UNDO
   - CUT
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -160,8 +160,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -174,7 +174,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
