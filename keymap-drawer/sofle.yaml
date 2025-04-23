@@ -45,7 +45,7 @@ layers:
   - KP PLUS
   - '{'
   - '}'
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -149,7 +149,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - BT CLR ALL
   - RGB BRD
   - RGB BRI
   - ''
