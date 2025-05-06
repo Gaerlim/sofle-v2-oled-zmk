@@ -136,7 +136,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&soft_off'
   - EP TOG
   - RGB HUD
   - RGB HUI
