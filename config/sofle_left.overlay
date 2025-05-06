@@ -1,5 +1,0 @@
-/ {
-    &led_strip {
-        color-multiplier = <4>; // lower number = lower brightness
-    };
-};
