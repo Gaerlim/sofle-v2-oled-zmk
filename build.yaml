@@ -19,5 +19,9 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
     shield: sofle_right
+    kconfig: |
+      CONFIG_ZMK_SPLIT=y
+      CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+      CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=1
   - board: nice_nano_v2
     shield: settings_reset
