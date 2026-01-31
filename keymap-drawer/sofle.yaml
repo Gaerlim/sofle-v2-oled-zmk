@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '''', TAB, Q, W, E, R, T, Y, U, I, O, P, '`', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '-', CAPS,
+    Z, X, C, V, B, MUTE, '&lock', N, M, ',', ., /, '=', LGUI, LALT, LCTRL, SPACE, PRINTSCREEN, ENTER, BACKSPACE, DEL, lower, raise]
   lower:
-  - '&studio_unlock'
+  - '~'
   - F1
   - F2
   - F3
@@ -45,7 +45,7 @@ layers:
   - KP PLUS
   - '{'
   - '}'
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -53,15 +53,15 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
   - BT CLR
@@ -70,7 +70,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
+  - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -108,7 +108,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - END
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Sft+RIGHT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,11 +124,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   adjust:
-  - BT CLR
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -135,8 +135,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - BT CLR ALL
+  - '&soft_off'
   - EP TOG
   - RGB HUD
   - RGB HUI
@@ -149,7 +149,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - BT CLR ALL
   - RGB BRD
   - RGB BRI
   - ''
@@ -178,10 +178,10 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
+  - {type: held}
